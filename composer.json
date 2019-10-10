@@ -1,0 +1,23 @@
+{
+    "name": "echozzy/laravel-ueditor",
+    "description": "Ueditor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "echozzy",
+            "email": "348858954@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zzy\\LaravelUEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zzy\\LaravelUEditor\\UEditorServiceProvider"
+            ]
+        }
+    }
+}
